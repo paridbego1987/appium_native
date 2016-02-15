@@ -28,8 +28,7 @@ public class Env extends RunTest{
                 scenario.embed(screenshot, "image/png");
             }
         } finally {
-            driver.closeApp();
-            driver.launchApp();
+
         }
 
     }

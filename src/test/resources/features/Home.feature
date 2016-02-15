@@ -1,5 +1,5 @@
 @derin
 Feature: Example
 
-  Background:
+Scenario: Test Case
     Given I am on home screen

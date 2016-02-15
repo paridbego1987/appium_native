@@ -3,6 +3,7 @@ package com.payments.pages;
 import com.payments.runner.RunTest;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -14,10 +15,10 @@ import org.openqa.selenium.support.PageFactory;
 public class Common extends RunTest{
 
     @FindBy(id = "lst-ib")
-    public MobileElement Search_field;
+    public WebElement Search_field;
 
     @FindBy(name = "x")
-    public MobileElement Header;
+    public WebElement Header;
 
 
     public Common(){
